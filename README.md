@@ -1,4 +1,4 @@
-# Belajar CSS Flexbox & Grid
+# Belajar CSS Flexbox & Grid (not finished yet)
 
 ## Flexbox
 
@@ -7,3 +7,11 @@ Flexbox Layout atau Flexible Box adalah sebuah jalan kemudahan bagi para web des
 Dalam penggunaannya, flexbox memerlukan beberapa properti. Baik yang digunakan dalam parent element (flex container)maupun dalam children element (flex items).
 
 Sehingga kita perlu mendefinisikan properti "display" menjadi flex pada parent elementnya.
+
+## Contoh penggunaan awal
+
+Class container menggunakan display:flex; sehingga semua anak turunannya akan menggunakan flex.
+
+.container {
+display: flex;
+}
