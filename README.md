@@ -8,10 +8,23 @@ Dalam penggunaannya, flexbox memerlukan beberapa properti. Baik yang digunakan d
 
 Sehingga kita perlu mendefinisikan properti "display" menjadi flex pada parent elementnya.
 
-## Contoh penggunaan awal
+### Contoh penggunaan awal (display)
 
 Class container menggunakan display:flex; sehingga semua anak turunannya akan menggunakan flex.
 
 .container {
 display: flex;
+}
+
+### flex-direction
+
+Kita dapat mendefinisikan arah sumbu dari container dengan menambahkan properti flex-direction.
+
+- row (default): dari kiri ke kanan.
+- row-reverse: dari kanan ke kiri.
+- column: sama seperti row tapi berubah menjadi vertikal, atas ke bawah.
+- column-reverse: dari bawah ke atas.
+
+.container {
+flex-direction: row | row-reverse | column | column-reverse;
 }
